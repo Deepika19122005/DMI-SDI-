@@ -1,0 +1,36 @@
+{
+  "name": "dmi-hero-section",
+  "version": "1.0.0",
+  "description": "Responsive, animated hero section built for DMI.ai Frontend Developer Challenge – Round 1",
+  "author": "Deepika Ajmera",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",                        // Run the dev server
+    "dev": "vite",                          // Alias for development
+    "build": "vite build",                 // Create optimized production build
+    "preview": "vite preview",             // Preview the build before deploying
+    "format": "prettier --write .",        // Format code nicely (optional)
+    "lint": "eslint . --fix"               // Auto-fix lint issues
+  },
+  "dependencies": {
+    "react": "^19.1.0",                     // React core library
+    "react-dom": "^19.1.0",                 // React DOM renderer
+    "framer-motion": "^11.0.0",             // For animations & motion effects
+    "react-router-dom": "^7.6.2"            // In case I add routing later
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",                       // Vite for blazing fast dev & build
+    "@vitejs/plugin-react": "^4.4.1",      // React plugin for Vite
+    "tailwindcss": "^4.1.10",              // TailwindCSS for utility-first styling
+    "postcss": "^8.4.38",                  // Used under the hood by Tailwind
+    "autoprefixer": "^10.4.19",            // Adds CSS vendor prefixes
+    "eslint": "^9.25.0",                   // Linting to keep code clean
+    "prettier": "^3.3.1",                  // Optional: formatting tool
+    "@types/react": "^19.1.2",             // TypeScript types (even if not using TS, keeps things flexible)
+    "@types/react-dom": "^19.1.2",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0"
+  }
+}
